@@ -11,31 +11,19 @@ Lets start by learning about Spark and MongoDB<br></br>
 
 Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.<br></br>
 
-**What is Cassandra?** <br></br>
+**What is MongoDB?** <br></br>
 
-Apache Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.<br></br>
+MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.<br></br>
 
-**Dive into the overall implementation and structure of this integration starting with basic steps taken step by step**:<br></br>
-
-At first We have our cassandra database which is empty which we have created in Hadoop Cluster using following command:<br>
-
-**Step-1:** **Creating the Database for Cassandra**<br>
-CREATE KEYSPACE movielens WITH replication = {"class":"SimpleStrategy",'replication_factor':'01'} and durable_writes=true;<br></br>
-
-**Step-2:** **Using database movielens and creating table inside it of users**<br>
-USE movielens;<br></br>
-
-**Step-3:** **Creating table users in Cassandra with the columns names and datatypes in it**<br>
-CREATE TABLE users (user_id int, age int, gender text, occupation text, zip text, primary_key (user_id));<br></br>
+The MongoDB Connector for Apache Spark exposes all of Spark's libraries, including Scala, Java, Python and R. MongoDB data is materialized as DataFrames and Datasets for analysis with machine learning, graph, streaming, and SQL APIs.<br></br>
 
 
-**Step-4:** **Verifying whether everything is set up or not?** <br>
-DESCRIBE TABLE users;<br></br>
 
-**Step-5:** **Selecting all rows from table users**<br>
-SELECT * from users;<br></br>
 
-**Step-6:** After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
+
+
+
+After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
 
 **Main Insights of Project**:<br></br>
 
