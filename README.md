@@ -5,7 +5,7 @@
   
 **In this project we will integrate Apache Spark with MongoDB and it's gonna be amazing combo you goona have in your toolkit after this project**.<br></br>
 
-Lets start by learning about Spark and MongoDB<br></br>
+Lets start by learning about Spark and MongoDB: <br></br>
 
 **What is Spark?** <br></br>
 
