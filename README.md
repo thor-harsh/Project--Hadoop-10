@@ -27,7 +27,7 @@ with all the configuration needed into MongoDB. We can check whether it is write
 
 Secondly we read the Dataframe from cassandra and then we create views and even run sql queries on that.<br></br>
 
-**Important Note:** You can do amazing stuff with MongoDB irrespective of any other NoSQL Database as it has its own file system which is called GFL same as hadoop has which is called HDFS and you can literlly do all the things on it which you can do in hadoop.<br>
+**Important Note:** You can do amazing stuff with MongoDB irrespective of any other NoSQL Database as it has its own file system which is called GFL same as hadoop has which is called HDFS and you can literlly do all the things on it which you can do in hadoop.<br></br>
 
 **MongoDB vs Hadoop**<br></br>
 
