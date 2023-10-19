@@ -17,6 +17,7 @@ MongoDB is a source-available cross-platform document-oriented database program.
 
 The MongoDB Connector for Apache Spark exposes all of Spark's libraries, including Scala, Java, Python and R. MongoDB data is materialized as DataFrames and Datasets for analysis with machine learning, graph, streaming, and SQL APIs.<br></br>
 
+
 So lets jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
 
 **Main Insights of Project**:<br></br>
@@ -25,6 +26,8 @@ First we made the dataframe from the u.user file which is uploaded alongside the
 with all the configuration needed into MongoDB. We can check whether it is writed in MongoDB or not using 'SELECT * from users;' command.<br></br>
 
 Secondly we read the Dataframe from cassandra and then we create views and even run sql queries on that.<br></br>
+
+**Important Note:** You can do amazing stuff with MongoDB irrespective of any other NoSQL Database as it has its own file system which is called GFL and you can literlly do all the things on it which you can do in hadoop.
 
 </table>
 
