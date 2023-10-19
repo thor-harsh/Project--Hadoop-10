@@ -27,7 +27,13 @@ with all the configuration needed into MongoDB. We can check whether it is write
 
 Secondly we read the Dataframe from cassandra and then we create views and even run sql queries on that.<br></br>
 
-**Important Note:** You can do amazing stuff with MongoDB irrespective of any other NoSQL Database as it has its own file system which is called GFL and you can literlly do all the things on it which you can do in hadoop.
+**Important Note:** You can do amazing stuff with MongoDB irrespective of any other NoSQL Database as it has its own file system which is called GFL same as hadoop has which is called HDFS and you can literlly do all the things on it which you can do in hadoop.
+
+MongoDB vs Hadoop<br></br>
+
+Both Hadoop and MongoDB have many benefits over traditional databases when it comes to handling big data. However, only MongoDB can act as a complete replacement for a traditional database. With its flexible schema, MongoDB makes it easy to store information in a format that doesn’t require many transformations ahead of time. Its query language makes it possible to efficiently access and even process data on the fly.<br></br>
+
+There are still times when you might want to use Hadoop, though. With its distributed file system, Hadoop can come in handy when dealing with massive objects. In these cases, it is possible to use Hadoop to complement MongoDB to leverage the power of both into a single cohesive architecture.
 
 </table>
 
