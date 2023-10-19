@@ -19,11 +19,7 @@ The MongoDB Connector for Apache Spark exposes all of Spark's libraries, includi
 
 
 
-
-
-
-
-After this all worked fine jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
+So lets jump to the python code file on getting to know about how to do integration from spark to cassandra.<br></br>
 
 **Main Insights of Project**:<br></br>
 
